@@ -13,8 +13,8 @@ robot = Robot()
 print("Move the motors of the Thymio II to position " + str(target) + ".")
 
 # Set the target position of the left and right wheels motors.
-robot.getDevice("motor.left").setPosition(target)
-robot.getDevice("motor.right").setPosition(target)
+robot.getDevice("motor.left").setPosition(target + 0.5)
+robot.getDevice("motor.right").setPosition(target + 0.5)
 
 # This is the simplest controller that works for this benchmark
 # If you want to experiment with more complex functions, you can read the programming guide here:
