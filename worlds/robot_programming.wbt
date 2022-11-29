@@ -48,6 +48,7 @@ DEF BENCHMARK_SUPERVISOR Robot {
   ]
   controller "supervisor"
   supervisor TRUE
+  synchronization FALSE
   window "robot_programming_benchmark"
 }
 Transform {
