@@ -7,10 +7,9 @@ EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/project
 
 WorldInfo {
   info [
-    "Benchmark objective: "
-    "learn how to program a robot."
+    "Stuff happens, happiness ensues."
   ]
-  title "Container Robot Programming"
+  title "My bench"
   window "robot_programming_benchmark"
   basicTimeStep 20
   contactProperties [
